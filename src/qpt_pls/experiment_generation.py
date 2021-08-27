@@ -44,7 +44,7 @@ from pathlib import Path
 import pandas
 import collections
 
-from _projections_with_introspection import (
+from qpt_pls._projections_with_introspection import (
     hyperplane_intersection_projection_recall_with_storage,
     hyperplane_intersection_projection_switch_with_storage,
     step_generator,
@@ -55,7 +55,7 @@ from _projections_with_introspection import (
     store_fidelity,
 )
 
-from data_generation import (
+from qpt_pls.data_generation import (
     sampling,
     probas_Pauli,
     probas_MUBS,
@@ -65,11 +65,11 @@ from data_generation import (
     Choi_LS_Pauli_from_channel_bigmem,
 )
 
-from _old_projections import one_step_HIP_with_storage, pure_HIP_with_storage
+from qpt_pls._old_projections import one_step_HIP_with_storage, pure_HIP_with_storage
 
-from channels import Choi
+from qpt_pls.channels import Choi
 
-from projections import *
+from qpt_pls.projections import *
 
 # from old_ideas import probas_Pauli_ancien
 # from data_generation import prod_pauli_vecs
