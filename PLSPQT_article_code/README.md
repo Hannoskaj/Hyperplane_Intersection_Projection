@@ -1,7 +1,7 @@
 # Code for the article "Projected Least-Squares Quantum Process Tomography"
 
 Uses: 
-`numpy, scipy, numexpr, tables, pandas, collections, jupyter`
+`numpy (1.20.2), scipy (1.6.2), numexpr (2.7.3), tables (3.6.1), pandas (1.2.4), collections, jupyter (1.0.0)`
 
 The experiments were generated via:
 * the notebook `Article experiments.ipynb` for all the experiments in the numerics section.
