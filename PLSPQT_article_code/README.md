@@ -7,6 +7,7 @@ The experiments were generated via:
 * the notebook `Article experiments.ipynb` for all the experiments in the numerics section.
 * the notebook `Graphes.ipynb` for all the figures.
 * the scripts `auto*.py` for the experiments on 7 qubits.
+* the notebook `dual_propre.ipynb` contains the experiment from Section 6.7., with the dual approach.
 
 The notebook `Tutorial.ipynb` is an introduction to using the simulation code for your own purposes.
 
